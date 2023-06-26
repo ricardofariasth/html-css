@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+Tudo que em HTML é ID = é # em CSS (hashtag)
+Tudo que em HTML é class = é . em CSS (ponto)
+*/
+
+body {
+    background-image: linear-gradient(to left, #9A38C7, #4B1B61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h1#principal {
+    background-color: #22945D;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: #e1c38298;
+}
+
+p {
+    color: #ffffffa1;
+}
+
+.basico {
+    color: #2cb975;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #b9ab2cd7;
+}
+
+.avancado {
+    color: #c22c2cbd;
+}
+
+.destaque {
+    background-color: rgba(204, 204, 56, 0.685);
+}
